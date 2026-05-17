@@ -19,16 +19,6 @@
         ];
       };
 
-      # MÁQUINA NOVA
-      NixOS = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux"; # Altere se a nova máquina usar outra arquitetura
-        modules = [
-          ./configuration.nix
-          ./hardware/novo-pc.nix # Reutiliza a mesma configuração 
-          nix-flatpak.nixosModules.nix-flatpak
-        ];
-      };
-
     };
   };
 }
