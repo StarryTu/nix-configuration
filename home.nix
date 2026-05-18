@@ -5,5 +5,8 @@
   home.stateVersion = "25.11";
   programs.home-manager.enable = true;
   nixpkgs.config.allowUnfree = true;
+  import = [
+    ./ghostty.nix
+  ];
 
 }
