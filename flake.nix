@@ -37,7 +37,7 @@
             home-manager.extraSpecialArgs = { inherit inputs; }; 
             
             # IMPORTANTE: Altere "meu_usuario" para o seu nome de usuário real no Linux
-            home-manager.users.arthur = import ./home.nix;
+            home-manager.users.arthur =  ./home.nix;
           }
         ];
       };
