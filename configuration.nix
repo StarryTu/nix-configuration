@@ -14,6 +14,14 @@
 
   # Bootloader.
   boot = {
+    supportedFilesystems = [
+      "ntfs"
+      "exfat"
+      "ext4"
+      "fat32"
+      "btrfs"
+    ];
+
     loader.grub.enable = true;
     loader.grub.device = "/dev/nvme0n1";
     loader.grub.useOSProber = true;
