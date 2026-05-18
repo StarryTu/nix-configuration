@@ -19,7 +19,7 @@
     google-chrome
     nixd
     nixfmt
-    ghostty
+    gparted
     vlc 
   ];
 }
