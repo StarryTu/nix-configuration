@@ -4,7 +4,6 @@
     enable = true;
     package = pkgs.ghostty; 
     settings ={
-      theme = "catppuccin-mocha"; # Escolha seu tema nativo
       font-family = "JetBrains Mono";
       font-size = 12;
       window-padding-x = 10;
