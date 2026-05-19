@@ -1,8 +1,8 @@
-{config, pkgs, nix-flatpak, ...}:
+{config, pkgs,  ...}:
 {
     services.flatpak ={
         enable  = true;
-        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" ""];
+        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" ];
         update.auto = {
           enable = true;
       };
