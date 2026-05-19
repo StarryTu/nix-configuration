@@ -22,5 +22,6 @@
     gparted
     vlc 
     discord
+    spotify
   ];
 }
