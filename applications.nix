@@ -21,5 +21,6 @@
     nixfmt
     gparted
     vlc 
+    discord
   ];
 }

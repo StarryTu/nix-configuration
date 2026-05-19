@@ -25,6 +25,8 @@
     loader.grub.enable = true;
     loader.grub.device = "/dev/nvme0n1";
     loader.grub.useOSProber = true;
+    kernelPackages = pkgs.linuxPackages_latest;
+
 	
   };
 
