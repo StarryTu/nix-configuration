@@ -2,7 +2,7 @@
 {
     services.flatpak ={
         enable  = true;
-        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" ];
+        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" "io.mrarm.mcpelauncher"];
         update.auto = {
           enable = true;
       };
