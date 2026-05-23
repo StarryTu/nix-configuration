@@ -23,5 +23,6 @@
     vlc 
     discord
     spotify
+    libreoffice
   ];
 }
