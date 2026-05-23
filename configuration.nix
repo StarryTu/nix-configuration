@@ -111,7 +111,11 @@
     options = "--delete-older-than 7d";
   };
   nix.settings.auto-optimise-store = true;
-
+    fileSystems."/mnt/storage" = {
+    device = "/dev/disk/by-uuid/7BFE-61A6"; # Substitua pelo UUID real do seu dispositivo, que pode ser encontrado usando `lsblk -f` ou `blkid`
+    fsType = "exfat"; # mude para ext4, ntfs-3g, etc.
+    options = [ "defaults" "nofail" "x-systemd.automount" ];
+  };
 
 
 
