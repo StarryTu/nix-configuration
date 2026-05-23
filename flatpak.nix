@@ -2,7 +2,7 @@
 {
     services.flatpak ={
         enable  = true;
-        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" "io.mrarm.mcpelauncher" "sh.ppy.osu"];
+        packages = ["org.vinegarhq.Sober" "org.prismlauncher.PrismLauncher" "org.gnome.Calculator" "io.mrarm.mcpelauncher" "sh.ppy.osu" "com.heroicgameslauncher.hgl" "net.lutris.Lutris"];
         update.auto = {
           enable = true;
       };

@@ -24,5 +24,6 @@
     discord
     spotify
     libreoffice
+    jdk
   ];
 }
