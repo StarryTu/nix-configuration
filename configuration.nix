@@ -10,6 +10,7 @@
       ./applications.nix
       ./flatpak.nix
       ./udev.nix
+      ./virtualization.nix
     ];
 
   # Bootloader.
@@ -101,7 +102,7 @@
   users.users.arthur = {
     isNormalUser = true;
     description = "Arthur";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       kdePackages.kate
       thunderbird

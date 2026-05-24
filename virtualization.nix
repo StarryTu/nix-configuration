@@ -12,9 +12,10 @@
       "docker.io"
       "quay.io"
     ];
+    docker.enable = true;
     podman = {
       enable = true;
-      dockerCompat = true;
+      dockerCompat = false;
       defaultNetwork.settings.dns_enabled = true;
     };
   };
