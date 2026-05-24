@@ -25,5 +25,6 @@
     spotify
     libreoffice
     jdk
+    distroshelf
   ];
 }
